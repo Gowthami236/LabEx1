@@ -10,7 +10,7 @@ import android.widget.EditText;
 import com.example.activity.R;
 
 
-@SuppressWarnings("deprecation")
+
 public class MainActivity extends ActionBarActivity {
 	Button But;
 	EditText text;
@@ -19,8 +19,8 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		But = (Button) findViewById(R.id.b1);
-		text = (EditText) findViewById(R.id.text_2);
+		But = (Button) findViewById(R.id.button1);
+		text = (EditText) findViewById(R.id.input);
 		But.setOnClickListener(new View.OnClickListener() {
 
 			@Override
