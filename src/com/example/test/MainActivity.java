@@ -12,20 +12,20 @@ import com.example.activity.R;
 
 @SuppressWarnings("deprecation")
 public class MainActivity extends ActionBarActivity {
-	Button helBut;
-	EditText textInput2;
+	Button But;
+	EditText text;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		helBut = (Button) findViewById(R.id.b1);
-		textInput2 = (EditText) findViewById(R.id.text_2);
-		helBut.setOnClickListener(new View.OnClickListener() {
+		But = (Button) findViewById(R.id.b1);
+		text = (EditText) findViewById(R.id.text_2);
+		But.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
-				String data1 = textInput2.getText().toString();
+				String data1 = text.getText().toString();
 				Intent i = new Intent(MainActivity.this, Second_activity.class);
 				i.putExtra("username", data1);
 				startActivity(i);

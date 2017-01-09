@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Click me" />
+        android:text="Click" />
     
     <EditText
         android:id="@+id/text_2"
