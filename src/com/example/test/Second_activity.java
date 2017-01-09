@@ -31,9 +31,9 @@ public class Second_activity extends Activity {
 		Intent i = getIntent();
 		String datafrmMain = i.getStringExtra("username");
 		result.setTypeface(tfont);
-		result.setText("Hai " + datafrmMain);
+		result.setText("Hey " + datafrmMain);
 		result1.setTypeface(t1font);
-		result1.setText("Hello " + datafrmMain);
+		result1.setText("You are " + datafrmMain);
 		result2.setTypeface(t2font);
 		result2.setText("Welcome " + datafrmMain);
 
